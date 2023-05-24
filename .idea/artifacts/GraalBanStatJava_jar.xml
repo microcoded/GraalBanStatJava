@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GraalBanStatJava:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GraalBanStatJava_jar</output-path>
+    <root id="archive" name="GraalBanStatJava.jar">
+      <element id="module-output" name="GraalBanStatJava" />
+    </root>
+  </artifact>
+</component>

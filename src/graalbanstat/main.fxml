@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="TOP_CENTER" minHeight="200.0" minWidth="-Infinity" prefHeight="493.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graalbanstat.MainController">
+
+  <MenuBar>
+    <Menu mnemonicParsing="false" text="File">
+      <MenuItem mnemonicParsing="false" onAction="#closePressed" text="Exit" />
+    </Menu>
+    <Menu mnemonicParsing="false" text="Help">
+        <MenuItem mnemonicParsing="false" onAction="#guidePressed" text="Guide" />
+      <MenuItem mnemonicParsing="false" onAction="#aboutPressed" text="About"/>
+    </Menu>
+  </MenuBar>
+   <HBox maxWidth="1.7976931348623157E308" spacing="10">
+       <VBox spacing="10">
+           <Button fx:id="selectButton" onAction="#select" prefWidth="110" text="Select Bans File" />
+           <ComboBox fx:id="monthBox" prefWidth="110.0" promptText="Month" />
+           <Button onAction="#run" prefWidth="110" text="Calculate Stats" />
+       </VBox>
+     <TextArea fx:id="outputTxtArea" editable="false" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefHeight="9999999.0" prefWidth="512.0" text="Output:" wrapText="true" />
+       <VBox spacing="10">
+           <Button mnemonicParsing="false" onAction="#copyText" prefWidth="120" text="Copy to Clipboard" />
+           <Button mnemonicParsing="false" onAction="#generateGraph" prefWidth="120" text="Generate Chart" />
+           <Button mnemonicParsing="false" onAction="#openCSV" prefWidth="120" text="Open as CSV" />
+       </VBox>
+      <padding>
+         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+      </padding>
+   </HBox>
+</VBox>

@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="GraalBanStatJava">
+    <output-path>$PROJECT_DIR$/out/artifacts/GraalBanStatJava</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="graalbanstat.MainModel" />
+        <option name="description" value="GraalBanStat allows you to easily collect statistics from a GraalOnline bans.txt file." />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="icons">
+          <JavaFxApplicationIcons>
+            <option name="linuxIcon" value="$PROJECT_DIR$/icons/GraalBanStatIcon.png" />
+            <option name="macIcon" value="$PROJECT_DIR$/icons/GraalBanStatIcon.icns" />
+            <option name="windowsIcon" value="$PROJECT_DIR$/icons/GraalBanStatIcon.ico" />
+          </JavaFxApplicationIcons>
+        </option>
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="GraalBanStat" />
+        <option name="vendor" value="JCookie" />
+        <option name="version" value="1.0" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="GraalBanStatJava.jar">
+        <element id="module-output" name="GraalBanStatJava" />
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" prefWidth="213.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="graalbanstat.AboutController">
+   <Label text="GraalBanStat">
+      <font>
+         <Font name="System Bold" size="20.0"/>
+      </font>
+      <padding>
+         <Insets bottom="5.0" top="5.0"/>
+      </padding>
+   </Label>
+   <Label text="Version 1.0">
+      <font>
+         <Font size="12.0"/>
+      </font>
+   </Label>
+   <Label layoutX="94.0" layoutY="47.0" text="Copyright  © 2023 JCookie">
+      <font>
+         <Font size="12.0"/>
+      </font>
+   </Label>
+   <Label layoutX="59.0" layoutY="80.0" text="Discord: Noren#7588">
+      <font>
+         <Font size="12.0"/>
+      </font>
+      <padding>
+         <Insets bottom="20.0" top="20.0"/>
+      </padding>
+   </Label>
+</VBox>
